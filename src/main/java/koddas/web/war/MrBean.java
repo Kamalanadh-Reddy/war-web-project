@@ -83,7 +83,7 @@ public class MrBean implements Serializable {
 
 	/**
 	 * Gives the bean a new nationality.
-	 * 
+	 * hey its for test
 	 * @param nationality The new nationality.
 	 */
 	public void setNationality(String nationality) {
