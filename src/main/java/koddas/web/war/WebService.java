@@ -42,7 +42,7 @@ public class WebService {
 	 * @return A web response.
 	 */
 	@GET
-	@Path("/hello") // This is appended to your URL, that is "service/hello test"
+	@Path("/hello") // This is appended to your URL, that is "service/hello"
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response hello() {
 		return Response.ok("Hello, World!").build();
