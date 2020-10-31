@@ -33,7 +33,7 @@ public class WebService {
 	@GET // This endpoint will be available using GET and GET only 
 	@Produces(MediaType.TEXT_PLAIN) // The response will be in plain text.
 	public Response root() {
-		return Response.ok("It's working").build();
+		return Response.ok("It's working for test purpose").build();
 	}
 	
 	/**
